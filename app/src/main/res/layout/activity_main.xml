@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.cnpp.cycleviewpager.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_cycle_viewpager"
+        android:name="cn.cnpp.cycleviewpager.CycleMyViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <fragment
+        android:id="@+id/fragment_image_viewpager"
+        android:name="cn.cnpp.cycleviewpager.CycleImageViewPager"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
